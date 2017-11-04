@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3603697-97A6-4A00-8668-FE10B526C613}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JavaScriptBook</RootNamespace>
+    <AssemblyName>JavaScriptBook</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chapter01\complete_hello.html" />
+    <Content Include="chapter01\complete_hello2.html" />
+    <Content Include="chapter01\complete_slide.html" />
+    <Content Include="chapter01\hello.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="chapter01\hello2.html" />
+    <Content Include="chapter01\slide.html" />
+    <Content Include="chapter02\arrays.html" />
+    <Content Include="chapter02\prompt.html" />
+    <Content Include="chapter02\use_variable.html" />
+    <Content Include="chapter03\print_date.html" />
+    <Content Include="chapter03\quiz.html" />
+    <Content Include="chapter04\bibliography.html" />
+    <Content Include="chapter04\pull-quote.html" />
+    <Content Include="chapter04\selectors.html" />
+    <Content Include="chapter05\events.html" />
+    <Content Include="chapter05\events_intro.html" />
+    <Content Include="chapter05\faq.html" />
+    <Content Include="chapter06\animate.html" />
+    <Content Include="chapter06\callback.html" />
+    <Content Include="chapter06\effects.html" />
+    <Content Include="chapter06\form.html" />
+    <Content Include="chapter06\jquery-trigger-css-animation1.html" />
+    <Content Include="chapter06\jquery-trigger-css-animation2.html" />
+    <Content Include="chapter06\jquery-trigger-css-transition.html" />
+    <Content Include="chapter06\login.html" />
+    <Content Include="chapter06\multiple-callbacks.html" />
+    <Content Include="chapter06\WebForm1.aspx" />
+    <Content Include="chapter06\WebFormEasing.aspx" />
+    <Content Include="chapter07\gallery.html" />
+    <Content Include="chapter07\menu.html" />
+    <Content Include="chapter07\rollover.html" />
+    <Content Include="chapter07\smartmenus\jquery.smartmenus.min.js" />
+    <Content Include="chapter07\smartmenus\sm-blue.css" />
+    <Content Include="chapter07\smartmenus\sm-clean.css" />
+    <Content Include="chapter07\smartmenus\sm-core-css.css" />
+    <Content Include="chapter07\smartmenus\sm-simple.css" />
+    <Content Include="chapter07\WebForm1.aspx" />
+    <Content Include="chapter08\additional-methods.min.js" />
+    <Content Include="chapter08\form.html" />
+    <Content Include="chapter08\jquery.validate.min.js" />
+    <Content Include="chapter08\process.html" />
+    <Content Include="chapter08\validation.html" />
+    <Content Include="chapter09\accordion.html" />
+    <Content Include="chapter09\advanced_tooltips.html" />
+    <Content Include="chapter09\bad_horiz_menu_multilevels.html" />
+    <Content Include="chapter09\complete_accordion.html" />
+    <Content Include="chapter09\complete_advanced_tooltips.html" />
+    <Content Include="chapter09\complete_dialog.html" />
+    <Content Include="chapter09\complete_dialog_buttons.html" />
+    <Content Include="chapter09\complete_dialog_properties.html" />
+    <Content Include="chapter09\complete_dialog_test.html" />
+    <Content Include="chapter09\complete_hello_world.html" />
+    <Content Include="chapter09\complete_horiz_menus.html" />
+    <Content Include="chapter09\complete_menu.html" />
+    <Content Include="chapter09\complete_tabs.html" />
+    <Content Include="chapter09\complete_tabs_with_custom_event.html" />
+    <Content Include="chapter09\complete_tooltips.html" />
+    <Content Include="chapter09\dialog.html" />
+    <Content Include="chapter09\dialog_buttons.html" />
+    <Content Include="chapter09\images\map.png" />
+    <Content Include="chapter09\images\robot.jpg" />
+    <Content Include="chapter09\open_dialog_example.html" />
+    <Content Include="chapter09\panel1.html" />
+    <Content Include="chapter09\panel2.html" />
+    <Content Include="chapter09\panel3.html" />
+    <Content Include="chapter09\remote_tabs.html" />
+    <Content Include="chapter09\tabs.html" />
+    <Content Include="chapter09\tooltips.html" />
+    <Content Include="chapter09\ui-template.html" />
+    <Content Include="chapter12\checkers.html" />
+    <Content Include="chapter12\complete-draggable-position-test.html" />
+    <Content Include="chapter12\complete-draggable.html" />
+    <Content Include="chapter12\complete-to-the-trash.html" />
+    <Content Include="chapter12\drag-n-drop.html" />
+    <Content Include="chapter12\draggable.html" />
+    <Content Include="chapter12\game.css" />
+    <Content Include="chapter12\interactions.css" />
+    <Content Include="chapter12\nested-sortable.html" />
+    <Content Include="chapter12\pattern-game.html" />
+    <Content Include="chapter12\playlist.html" />
+    <Content Include="chapter12\simple-playlist.html" />
+    <Content Include="chapter12\test-sortable-events.html" />
+    <Content Include="chapter12\to-the-trash.html" />
+    <Content Include="chapter12\two-lists.html" />
+    <Content Include="chapter13\flickr.html" />
+    <Content Include="chapter13\lastweek.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="chapter13\load.html" />
+    <Content Include="chapter13\login.aspx" />
+    <Content Include="chapter13\login.html" />
+    <Content Include="chapter13\today.html" />
+    <Content Include="chapter13\yesterday.html" />
+    <Content Include="ObjectOrientedJavaScript\chapter02\multiplicationTable.js" />
+    <Content Include="ObjectOrientedJavaScript\chapter02\WebForm1.aspx" />
+    <Content Include="ObjectOrientedJavaScript\chapter03\closure.js" />
+    <Content Include="ObjectOrientedJavaScript\chapter03\Closures.aspx" />
+    <Content Include="ObjectOrientedJavaScript\chapter03\exersize.aspx" />
+    <Content Include="ObjectOrientedJavaScript\chapter03\exersize.js" />
+    <Content Include="ObjectOrientedJavaScript\chapter03\Functions.aspx" />
+    <Content Include="ObjectOrientedJavaScript\chapter03\functions.js" />
+    <Content Include="treeHouse\Objects\objects.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="_css\ColabBol-webfont.svg" />
+    <Content Include="_css\ColabLig-webfont.svg" />
+    <Content Include="_css\ColabMed-webfont.svg" />
+    <Content Include="_css\ColabReg-webfont.svg" />
+    <Content Include="_css\ColabThi-webfont.svg" />
+    <Content Include="_css\images\animated-overlay.gif" />
+    <Content Include="_css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="_css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="_css\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="_css\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="_css\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="_css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="_css\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="_css\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="_css\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="_css\images\ui-icons_222222_256x240.png" />
+    <Content Include="_css\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="_css\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="_css\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="_css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="_css\Inconsolata-webfont.svg" />
+    <Content Include="_css\jquery-ui.min.css" />
+    <Content Include="_css\leaguegothic-condensed-italic-webfont.svg" />
+    <Content Include="_css\leaguegothic-condensed-regular-webfont.svg" />
+    <Content Include="_css\leaguegothic-italic-webfont.svg" />
+    <Content Include="_css\leaguegothic-regular-webfont.svg" />
+    <Content Include="_css\site.css" />
+    <Content Include="_images\bg-footer.png" />
+    <Content Include="_images\bg-page.png" />
+    <Content Include="_images\bg-page2.png" />
+    <Content Include="_images\bg_page.png" />
+    <Content Include="_images\close.png" />
+    <Content Include="_images\footer-bg.png" />
+    <Content Include="_images\large\blue.jpg" />
+    <Content Include="_images\large\fan.jpg" />
+    <Content Include="_images\large\green.jpg" />
+    <Content Include="_images\large\milk.jpg" />
+    <Content Include="_images\large\orange.jpg" />
+    <Content Include="_images\large\purple.jpg" />
+    <Content Include="_images\large\red.jpg" />
+    <Content Include="_images\large\slide1.jpg" />
+    <Content Include="_images\large\slide2.jpg" />
+    <Content Include="_images\large\slide3.jpg" />
+    <Content Include="_images\large\slide4.jpg" />
+    <Content Include="_images\large\slide5.jpg" />
+    <Content Include="_images\large\slide6.jpg" />
+    <Content Include="_images\large\weight.jpg" />
+    <Content Include="_images\large\yellow.jpg" />
+    <Content Include="_images\open.png" />
+    <Content Include="_images\pencils.jpg" />
+    <Content Include="_images\small\blue.jpg" />
+    <Content Include="_images\small\blue_h.jpg" />
+    <Content Include="_images\small\green.jpg" />
+    <Content Include="_images\small\green_h.jpg" />
+    <Content Include="_images\small\orange.jpg" />
+    <Content Include="_images\small\orange_h.jpg" />
+    <Content Include="_images\small\purple.jpg" />
+    <Content Include="_images\small\purple_h.jpg" />
+    <Content Include="_images\small\red.jpg" />
+    <Content Include="_images\small\red_h.jpg" />
+    <Content Include="_images\small\slide1.jpg" />
+    <Content Include="_images\small\slide1_h.jpg" />
+    <Content Include="_images\small\slide2.jpg" />
+    <Content Include="_images\small\slide2_h.jpg" />
+    <Content Include="_images\small\slide3.jpg" />
+    <Content Include="_images\small\slide3_h.jpg" />
+    <Content Include="_images\small\slide4.jpg" />
+    <Content Include="_images\small\slide4_h.jpg" />
+    <Content Include="_images\small\slide5.jpg" />
+    <Content Include="_images\small\slide5_h.jpg" />
+    <Content Include="_images\small\slide6.jpg" />
+    <Content Include="_images\small\slide6_h.jpg" />
+    <Content Include="_images\small\yellow.jpg" />
+    <Content Include="_images\small\yellow_h.jpg" />
+    <Content Include="_images\trashcan-empty-icon.png" />
+    <Content Include="_images\trashcan-full-icon.png" />
+    <Content Include="_images\_notes\dwsync.xml" />
+    <Content Include="_js\jquery-1.11.0.min.js" />
+    <Content Include="_js\jquery-ui.js" />
+    <Content Include="_js\jquery-ui.min.js" />
+    <Content Include="_js\jquery.min.js" />
+    <Content Include="_js\site.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chapter06\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter06\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter06\WebFormEasing.aspx.cs">
+      <DependentUpon>WebFormEasing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter06\WebFormEasing.aspx.designer.cs">
+      <DependentUpon>WebFormEasing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter07\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter07\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter13\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter13\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter02\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter02\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter03\Closures.aspx.cs">
+      <DependentUpon>Closures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter03\Closures.aspx.designer.cs">
+      <DependentUpon>Closures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter03\exersize.aspx.cs">
+      <DependentUpon>exersize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter03\exersize.aspx.designer.cs">
+      <DependentUpon>exersize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter03\Functions.aspx.cs">
+      <DependentUpon>Functions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObjectOrientedJavaScript\chapter03\Functions.aspx.designer.cs">
+      <DependentUpon>Functions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="treeHouse\Objects\objects.aspx.cs">
+      <DependentUpon>objects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="treeHouse\Objects\objects.aspx.designer.cs">
+      <DependentUpon>objects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="_css\ColabBol-webfont.eot" />
+    <Content Include="_css\ColabBol-webfont.ttf" />
+    <Content Include="_css\ColabBol-webfont.woff" />
+    <Content Include="_css\ColabLig-webfont.eot" />
+    <Content Include="_css\ColabLig-webfont.ttf" />
+    <Content Include="_css\ColabLig-webfont.woff" />
+    <Content Include="_css\ColabMed-webfont.eot" />
+    <Content Include="_css\ColabMed-webfont.ttf" />
+    <Content Include="_css\ColabMed-webfont.woff" />
+    <Content Include="_css\ColabReg-webfont.eot" />
+    <Content Include="_css\ColabReg-webfont.ttf" />
+    <Content Include="_css\ColabReg-webfont.woff" />
+    <Content Include="_css\ColabThi-webfont.eot" />
+    <Content Include="_css\ColabThi-webfont.ttf" />
+    <Content Include="_css\ColabThi-webfont.woff" />
+    <Content Include="_css\Inconsolata-webfont.eot" />
+    <Content Include="_css\Inconsolata-webfont.ttf" />
+    <Content Include="_css\Inconsolata-webfont.woff" />
+    <Content Include="_css\leaguegothic-condensed-italic-webfont.eot" />
+    <Content Include="_css\leaguegothic-condensed-italic-webfont.ttf" />
+    <Content Include="_css\leaguegothic-condensed-italic-webfont.woff" />
+    <Content Include="_css\leaguegothic-condensed-regular-webfont.eot" />
+    <Content Include="_css\leaguegothic-condensed-regular-webfont.ttf" />
+    <Content Include="_css\leaguegothic-condensed-regular-webfont.woff" />
+    <Content Include="_css\leaguegothic-italic-webfont.eot" />
+    <Content Include="_css\leaguegothic-italic-webfont.ttf" />
+    <Content Include="_css\leaguegothic-italic-webfont.woff" />
+    <Content Include="_css\leaguegothic-regular-webfont.eot" />
+    <Content Include="_css\leaguegothic-regular-webfont.ttf" />
+    <Content Include="_css\leaguegothic-regular-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6206/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
