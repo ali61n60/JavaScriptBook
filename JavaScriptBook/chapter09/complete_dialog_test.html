@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -14,7 +14,7 @@ $(document).ready(function() {
 }
 );
   $('#clicker').click(function(evt) {
-  	//evt.preventDefault();
+  	evt.preventDefault();
   	$('#hello').dialog('open');
 	}); // end click
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
 	<div class="content">
 		<div class="main">
 			<h1>Hello World</h1>
-			<p>Notice that the dialog box looks so much better than an Alert!<a href="panel1.htlm" id="clicker">open login</a></p>
+			<p>Notice that the dialog box looks so much better than an Alert!<a href="panel1.html"  id="clicker">open login</a></p>
 			<div id="hello" title="Hello World!">
 				<p>This dialog box is actually a div, that's placed on the page using absolute positioning.</p>
 				<p>Try dragging the dialog around the screen. You can!</p>
